@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="73">
+    <author>HR Forst und Fahrzeugbau </author>
+	
+    <version>1.0.0.0</version>
+	
+    <title>
+        <en>JCB Forest Pack</en>
+		<de>JCB Forst Pack</de>
+    </title>
+	
+    <description>
+        <en>
+            <![CDATA[
+JCB Forest Pack
+
+Included are:
+
+Fastrac 4220 Skidder
+Fastrac 8330 Skidder
+
+Vehicles have various shop options and color changes.
+The Claw on the crane can be switched to rotate freely.
+
+
+Prices from:
+4220: 216,500 $
+8330: 289,000 $
+]]>
+        </en>
+        <de>
+            <![CDATA[
+JCB Forst Pack
+
+Enthalten sind:
+
+Fastrac 4220 Rückeschlepper
+Fastrac 8330 Rückeschlepper
+
+
+Fahrzeuge haben diverse Shop optionen und Farbwahlen.
+Die Zange am Kran kann Freidrehend geschaltet werden.
+
+Preise ab:
+4220: 216.500 €
+8330: 289.000 €
+]]>
+        </de>
+    </description>
+	
+    <iconFilename>icon_jcbForstPack.dds</iconFilename>
+	
+    <storeItems>
+        <storeItem xmlFilename="fastrac4220_forst.xml"/>
+		<storeItem xmlFilename="fastrac8330Forst.xml"/>
+    </storeItems>
+	
+	<multiplayer supported="true"/>
+	
+	<vehicleTypes>
+		
+		<type name="HRFF4220Forst" parent="forwarder" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="turnOnVehicle" />
+		</type>
+		<type name="HRFF8330Forst" parent="forwarder" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="turnOnVehicle" />
+        </type>
+    </vehicleTypes>
+	
+	<l10n>    
+        <text name="lock">
+            <en>Crablock Off</en>
+            <de>Zangensperre Aus</de>
+        </text>
+        <text name="free">
+            <en>Crablock On</en>
+            <de>Zangensperre An</de>
+        </text>
+		<text name="Doors">
+			<en>Doors</en>
+			<de>Türen</de>
+		</text>
+			<text name="Kran">
+			<en>Crane Color</en>
+			<de>Kranfarbe</de>
+		</text>
+		<text name="Zange">
+			<en>Claw Color</en>
+			<de>Zangenfarbe</de>
+		</text>
+			<text name="Olofsfors">
+			<en>Olofsfors Color</en>
+			<de>Olofsforsfarbe</de>
+		</text>	
+			<text name="Käfig">
+			<en>Forest Cage Color</en>
+			<de>Forstkäfigfarbe</de>
+		</text>
+		<text name="fenderVorne">
+			<en>Fender front</en>
+			<de>Kotflügel vorne</de>
+		</text>
+		<text name="fenderHinten">
+			<en>Fender back</en>
+			<de>Kotflügel hinten</de>
+		</text>
+		<text name="Pendellock">
+			<en>Pendulum axle lock off</en>
+			<de>Pendelachssperre auschalten</de>
+		</text>
+		<text name="Pendelfree">
+			<en>Pendulum axle lock on</en>
+			<de>Pendelachssperre einschalten</de>
+		</text>
+		<text name="Dach">
+			<en>Roofcolor</en>
+			<de>Dachfarbe</de>
+		</text>
+		<text name="HaubeOben">
+			<en>Hoodcolor</en>
+			<de>Haubenfarbe</de>
+		</text>
+		<text name="PONSSE_YELLOW"  >		<en>Ponsse Yellow</en>				<de>Ponsse Gelb</de>				</text>
+		<text name="chassisColor1"  >		<en>Chassis Color Mat</en>			<de>Fahrgestell Farbe Matt</de>		</text>
+		<text name="chassisColor2"  >		<en>Chassis Color Glossy</en>		<de>Fahrgestell Farbe Glänzend</de>	</text>
+		<text name="KOMATSU_RED"  >			<en>Komatsu Red</en>				<de>Komatsu Rot</de>				</text>
+		<text name="Pink"  >				<en>Light Pink</en>					<de>Rosa</de>						</text>
+		<text name="Galvanisiert"  >        <en>Galvanized</en>                 <de>Galvanisiert</de>               </text>
+		<text name="POLISHEDMETAL"  >		<en>Polished Metal</en>				<de>Poliertes Metal</de>			</text>
+		<text name="SPECIALBLUE1" >			<en>Special Blue 1</en>				<de>Spezial Blau 1</de>				</text>
+		<text name="SPECIALYELLOW" >		<en>Special Yellow</en>				<de>Spezial Gelb</de>				</text>
+		<text name="SPECIALBLUE2" >			<en>Special Blue 2</en>				<de>Spezial Blau 2</de>				</text>
+		<text name="SPECIALGREEN" >			<en>Special Green</en>				<de>Spezial Grün</de>				</text>
+		<text name="BLACK" >				<en>Black</en>						<de>Schwarz</de>					</text>
+		<text name="MANRED" >				<en>MAN Red</en>					<de>MAN Rot</de>					</text>
+		<text name="MANOLDGREEN" >			<en>MAN Oldgreen</en>				<de>MAN Altgrün</de>				</text>
+		<text name="BROWN2" >				<en>Dark Brown</en>					<de>Dunkel Braun</de>				</text>
+		<text name="BLUE" >					<en>Blue</en>						<de>Blau</de>						</text>
+		<text name="BLUE1" >				<en>Blue 1</en>						<de>Blau 1</de>						</text>
+		<text name="BLUE2" >				<en>Blue 2</en>						<de>Blau 2</de>						</text>
+		<text name="BLUE3" >				<en>Blue 3</en>						<de>Blau 3</de>						</text>
+		<text name="GREEN1" >				<en>Green 1</en>					<de>Grün 1</de>						</text>
+		<text name="GREEN2" >				<en>Green 2</en>					<de>Grün 2</de>						</text>
+		<text name="GREEN3" >				<en>Green 3</en>					<de>Grün 3</de>						</text>
+		<text name="GREEN4" >				<en>Green 4</en>					<de>Grün 4</de>						</text>
+		<text name="PINK/RED" >				<en>Pink/Red</en>					<de>Pink/Rot</de>					</text>
+		<text name="BERRY" >				<en>Berry</en>						<de>Beere</de>						</text>
+		<text name="WHITE" >				<en>White</en>						<de>Weiß</de>						</text>
+		<text name="DARKGRAY" >				<en>Darkgray</en>					<de>Dunkelgrau</de>					</text>
+		<text name="YELLOW1" >				<en>Yellow 1</en>					<de>Gelb 1</de>						</text>
+		<text name="YELLOW2" >				<en>Yellow 2</en>					<de>Gelb 2</de>						</text>
+		<text name="YELLOW3" >				<en>Yellow 3</en>					<de>Gelb 3</de>						</text>
+		<text name="SPECIALBLUE1METAL" >	<en>Special Blue 1 Metal</en>		<de>Spezial Blau 1 Metal</de>		</text>
+		<text name="SPECIALYELLOWMETAL" >	<en>Special Yellow Metal</en>		<de>Spezial Gelb Metal</de>			</text>
+		<text name="SPECIALBLUE2METAL" >	<en>Special Blue 2 Metal</en>		<de>Spezial Blau 2 Metal</de>		</text>
+		<text name="SPECIALGREENMETAL" >	<en>Special Green Metal</en>		<de>Spezial Grün Metal</de>			</text>
+		<text name="BLACKMETAL" >			<en>Black Metal</en>				<de>Schwarz Metal</de>				</text>
+		<text name="MANREDMETAL" >			<en>MAN Red Metal</en>				<de>MAN Rot Metal</de>				</text>
+		<text name="MANOLDGREENMETAL" >		<en>MAN Oldgreen Metal</en>			<de>MAN Altgrün Metal</de>			</text>
+		<text name="BROWNMETAL" >			<en>Brown Metal</en>				<de>Braun Metal</de>				</text>
+		<text name="BLUEMETAL" >			<en>Blue Metal</en>					<de>Blau Metal</de>					</text>
+		<text name="BLUE1METAL" >			<en>Blue 1 Metal</en>				<de>Blau 1 Metal</de>				</text>
+		<text name="BLUE2METAL" >			<en>Blue 2 Metal</en>				<de>Blau 2 Metal</de>				</text>
+		<text name="BLUE3METAL" >			<en>Blue 3 Metal</en>				<de>Blau 3 Metal</de>				</text>
+		<text name="GREEN1METAL" >			<en>Green 1 Metal</en>				<de>Grün 1 Metal</de>				</text>
+		<text name="GREEN2METAL" >			<en>Green 2 Metal</en>				<de>Grün 2 Metal</de>				</text>
+		<text name="GREEN3METAL" >			<en>Green 3 Metal</en>				<de>Grün 3 Metal</de>				</text>
+		<text name="GREEN4METAL" >			<en>Green 4 Metal</en>				<de>Grün 4 Metal</de>				</text>
+		<text name="PINK/REDMETAL" >		<en>Pink/Red Metal</en>				<de>Pink/Rot Metal</de>				</text>
+		<text name="BERRYMETAL" >			<en>Berry Metal</en>				<de>Beere Metal</de>				</text>
+		<text name="WHITEMETAL" >			<en>White Metal</en>				<de>Weiß Metal</de>					</text>
+		<text name="DARKGRAYMETAL" >		<en>Darkgray Metal</en>				<de>Dunkelgrau Metal</de>			</text>
+		<text name="YELLOW1METAL" >			<en>Yellow 1 Metal</en>				<de>Gelb 1 Metal</de>				</text>
+		<text name="YELLOW2METAL" >			<en>Yellow 2 Metal</en>				<de>Gelb 2 Metal</de>				</text>
+		<text name="YELLOW3METAL" >			<en>Yellow 3 Metal</en>				<de>Gelb 3 Metal</de>				</text>
+		<text name="ROTTNE_ORANGE" >		<en>Rottne Orange</en>				<de>Rottne Orange</de>				</text>
+		<text name="ROTTNE_BLUE" >			<en>Rottne Blue</en>				<de>Rottne Blau</de>				</text>
+    </l10n>
+</modDesc>
